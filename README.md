@@ -1,0 +1,2 @@
+# Unsafe Rust Pointer Manipulation Leading to Data Corruption
+This repository demonstrates a potential issue that can arise when using unsafe Rust code to directly manipulate vector elements via raw pointers.  The `bug.rs` file shows an example of this where modifying the vector using a raw pointer can lead to unexpected behavior or data corruption.  The solution, shown in `bugSolution.rs`, avoids this by using safe methods provided by the Rust standard library.  This example highlights the importance of careful consideration when working with unsafe code in Rust.
